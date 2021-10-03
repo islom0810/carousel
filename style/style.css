@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.slider {
+    min-height: 600px;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.slider__box {
+    border-radius: 10px;
+    border: 2px solid rgba(30, 143, 255, 0.767);
+}
+
+.slider__item {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 143, 255, 0.527);
+    transition: 0.5s;
+}
+
+.slider__item:hover {
+    background-color: dodgerblue;
+}
+
+.slider__controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__controls * {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.slider__prev {
+    border-radius: 7px;
+    margin-top: 10px;
+    /* border: none; */
+    background-color: rgba(30, 143, 255, 0.527);
+    color: white;
+    transition: 0.5s;
+    border: 2px solid rgba(30, 143, 255, 0.767);
+}
+
+.slider__prev:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.slider__next {
+    border-radius: 7px;
+    margin-top: 10px;
+    /* border: none; */
+    background-color: rgba(30, 143, 255, 0.527);
+    color: white;
+    transition: 0.5s;
+    border: 2px solid rgba(30, 143, 255, 0.767);
+}
+
+.slider__next:hover {
+    background-color: dodgerblue;
+    color: black;
+}
